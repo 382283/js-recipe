@@ -3,7 +3,9 @@ let myNickname = "エキスパくん"
 console.log(myNickname) // => "エキスパくん" と表示される
 
 // TRY: 変数 myNickname に再代入して自分のあだ名を表示してください
-
-console.log(myNickname)
+let bassa = "ばっさ～"
+console.log(bassa)
 
 // TRY: myAge を定数で宣言して自分の年齢を表示してください
+let myAge = 21
+console.log(myAge)

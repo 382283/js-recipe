@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>クイズ</h1>
+    <button id="button1"></button>
+    <button id="button2"></button>
+    <button id="button3"></button>
+    <button id="button4"></button>
+    <h3 id="answerText"></h3>
+    <script>
+      const button1 = document.getElementById("button1")
+      const button2 = document.getElementById("button2")
+      const button3 = document.getElementById("button3")
+      const button4 = document.getElementById("button4")
+      const answerText = document.getElementById("answerText")
+
+      button1.onclick = function () {
+        answerText.textcontent = "不正解!"
+      }
+
+      button2.onclick = function () {
+        answerText.textcontent = "残念！！"
+      }
+      button3.onclick = function () {
+        answerText.textcontent = "正解"
+      }
+      button4.onclick = function () {
+        answerText.textcontent = "違います"
+      }
+    </script>
+  </body>
+</html>
