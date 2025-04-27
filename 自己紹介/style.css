@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+header a {
+  color: white;
+}
+header a:hover {
+  text-decoration: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+main {
+  flex: 1;
+}
+
+.name {
+  align-items: end;
+}
+.name h2 {
+  margin-right: 32px;
+}
+.profile {
+  display: flex;
+  margin-top: 10px;
+}
+.univarsity {
+  font-size: 32px;
+}
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
+footer img {
+  width: 3em;
+  height: auto;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  justify-content: space-between;
+  margin: 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
